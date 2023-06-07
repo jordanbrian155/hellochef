@@ -1,0 +1,493 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.Big {
+  width: 100%;
+  height: 87vh;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background: url(/banner.webp);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.anchor {
+    display: flex;
+}
+
+.anchor a {
+    margin-right: 50px;
+}
+.anchor button {
+    margin-top: 20px;
+    margin-right: 70px;
+}
+.need {
+  padding: 12px;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column
+}
+.need p {
+  color: rgb(102, 98, 98);
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  width: 30%;
+  text-align: center;
+}
+.need h4 {
+  font-weight: 600;
+  color: rgb(80, 78, 78);
+  font-size: 50px;
+  font-weight: 600;
+  flex-direction: column;
+  width: 30%;
+  text-align: center;
+}
+.header {
+  display: flex;
+  width: 100%;
+  height: 16%;
+  margin-right: 30px;
+  background-color: white;
+  justify-content: space-between;
+
+}
+.header h1 {
+  color: red;
+  font-size: 40px;
+  font-weight: 900;
+  margin-left: 40px;
+  margin-top: 15px;
+}
+.header a {
+    color: rgb(44, 42, 42);
+    text-decoration: none;
+    line-height: 80px;
+    font-size: 20px;
+}
+.header button {
+    border: none;
+    background-color: rgb(235, 20, 20);
+    color:white;
+    border-radius: 15px;
+    width: 80px;
+    height: 50px;
+    font-size: 18px;
+}
+.need button {
+    background-color: rgb(235, 20, 20);
+    width: 180px;
+    height: 70px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 24px;
+
+}
+.Large {
+  width: 100%;
+  height: 70vh;
+  align-items: center;
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+
+}
+.new {
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+  margin-top: 60px;
+  margin: 30px;
+}
+.footer h5 {
+  color: rgb(56, 55, 55);
+  font-size: 40px;
+  font-weight: 600;
+
+}
+.footer {
+  color: grey;
+  font-size: 20px;
+}
+
+.same {
+  margin-right: 10%; 
+  margin-top: 20px;
+  margin: 30px;
+}
+.same img {
+  width: 320px;
+  height: 25vh;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.same h6,h5,h3 {
+  font-size: 30px;
+  color: rgb(83, 81, 81);
+}
+.same ul {
+  color: rgb(39, 38, 38);
+  font-size: 20px;
+}
+.wide {
+  width: 100%;
+ display: flex;
+  height: 80vh;
+}
+.how {
+  background-color: rgb(252, 166, 166);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 100%;
+  justify-content: center;
+  padding-left: 5%;
+  display: flex;
+  flex-direction: column;
+}
+.how h4 {
+  color: rgb(219, 29, 29);
+  font-size: 30px;
+  font-weight: 600;
+}
+.how p {
+  color: rgb(44, 42, 42);
+  font-size: 20px;
+}
+.how ol {
+  color: black;
+  font-size: 20px;
+  font-weight: 800;
+  margin-left: 1%;
+}
+.how button {
+  background-color: rgb(245, 14, 14);
+  color: white;
+  width: 120px;
+  height: 60px;
+  border: none;
+  border-radius: 16px;
+  font-size: 17px;
+}
+.img {
+  background: url(/Family_cooking.webp);
+  display: flex;
+  height: 100%;
+  width: 50%;
+  flex-direction: column;
+
+}
+.menu {
+  align-items: center;
+  display: block;
+  flex-direction: column;
+  width: 100%;
+  height: 50vh;
+  margin: 20px;
+}
+.ready {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  margin-top: 5%;
+}
+.foods {
+  display: flex;
+  justify-content:space-evenly;
+  width: 100%;
+  height: 90%;
+  height: 600px;
+}
+.menu h2 {
+  color: rgb(32, 31, 31);
+  font-size: 30px;
+  font-weight: 900;
+}
+.menu p {
+  color: rgb(78, 76, 76);
+  font-size: 23px;
+  font-weight: 100;
+  width: 55%;
+  text-align: center;
+}
+.vegan {
+  background: url(/vegan.webp);
+  background-size: cover;
+width: 20%;
+height: 30% ;
+border-radius: 6%;
+margin-left: 10%;
+}
+.classic {
+  background: url(/weekly_classic.webp);
+  height: 30% ;
+  width: 20%;
+  border-radius: 20px;
+  background-size: cover;
+}
+.vegeterian {
+  background: url(/Vegetarian.webp);
+  height: 30%;
+  width: 20%;
+  border-radius: 20px;
+  box-sizing: border-box;
+  background-size: cover;
+  margin-right: 10%;
+
+}
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  margin-top: 20%;
+  margin-top: 0%;
+}
+.chef {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  background-color: rgba(247, 241, 241, 0.719);
+  height: 60vh;
+  margin: 6%;
+}
+.imgs {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.chef img {
+  height: 46px;
+  width: 46px;
+  margin-top: 40px;
+}
+.ig h2 {
+  font-size: 2em;
+  color: #484848;
+  text-decoration: underline;
+  /* margin-top: 300px; */
+  text-align: center;
+  margin-left: 40%;
+}
+.customer {
+  width: 22%;
+  height: 25vh;
+  margin-left: 10px;
+}
+.customer img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.ig {
+  width: 100%;
+  flex-direction: row;
+  display: flex;
+  /* margin-left: 30%; */
+}
+.p {
+  margin-top: 10%;
+  color: rgb(73, 72, 72);
+  font-size: 30px;
+  width: 40%;
+  text-align: center;
+  flex-direction: row;
+}
+
+.p i {
+  color: rgb(241, 238, 12);
+  font-size: 70%;
+}
+.p span {
+  width: 10px;
+  font-size: 20px;
+}
+.p img {
+  width: 70px;
+  height: 26px;
+}
+.hello {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  background: url(/subscribe\ \(4\).webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.Subscribe {
+  background-color: rgb(253, 252, 252);
+  height: 40vh;
+  width: 60%;
+  margin-top: 10%;
+  margin-left: 25%;
+  border-radius: 10px;
+}
+.door {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 50%;
+  margin-top: 3%;
+}
+.iv {
+  display: flex;
+  height: 15%;
+  flex-direction: row;
+  justify-content: center;
+}
+.iv button {
+  background-color: rgb(245, 14, 14);
+  color: white;
+  font-size: 15px;
+  border: none;
+  width: 80px;
+  margin-top: 3%;
+  height: 54px;
+}
+.door h2 {
+  color: rgb(88, 87, 87);
+  font-size: 40px;
+}
+.iv input {
+  width: 300px;
+  margin-top: 3%;
+  height: 50px;
+}
+.door p {
+  color: gray;
+  font-size: 20px;
+}
+.bottom {
+  width: 100%;
+  height: 64vh;
+  /* display: flex; */
+  background-color: rgb(247, 242, 242);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.h {
+  display: flex;
+  justify-content: center;
+  color: rgb(219, 29, 29);
+  font-size: 30px;
+  font-weight: 700;
+}
+.sew {
+  flex-direction: row;
+  display: flex;
+  margin-top: 4%;
+}
+.Same {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+}
+.Same a {
+  color: rgb(128, 126, 126);
+  text-decoration: none;
+  font-size: 20px;
+}
+.end {
+  margin-left: 20%;
+  flex-direction: column;
+}
+.end a {
+  width: 10%;
+  text-decoration: none;
+  color: rgb(100, 98, 98);
+  font-size: 20px;
+}
+.News {
+  flex-direction: row;
+  display: flex;
+}
+.News h1 {
+  flex-direction: column;
+  margin-top: 5%;
+  margin-left: 7%;
+  color: rgb(49, 49, 49);
+  font-size: 20px;
+}
+.News input {
+  width: 200px;
+  height: 4vh;
+  /* margin-left: 7%; */
+}
+.News button {
+  width: 90px;
+  padding: 12px;
+  height: 4.5vh;
+  background-color: rgb(219, 29, 29);
+  border: none;
+  color: white;
+  /* margin-top: 10%; */
+  font-size: 17px;
+  
+}
+.Our {
+  margin-top: 5%;
+  margin-left: 7%;
+}
+.News label {
+  margin-left: 7%;
+  color: rgb(71, 71, 71);
+}
+.G {
+  margin-left: 15%;
+  margin-top: 6%;
+  font-size: 13px;
+  color: rgb(49, 49, 49);
+}
+.G i {
+  color: rgb(250, 214, 13);
+  font-size: 20px;
+}
+.G img{
+  height: 30px;
+  width: 46px;
+  /* margin-top: 40px; */
+}
+.follow {
+  margin-top: 7%;
+  margin-left: 20%;
+  font-size: 13px;
+  color: rgb(71, 71, 71);
+}
+.follow i {
+  font-size: 40px;
+}
+.copyright {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 7%;
+}
+.copyright p {
+  color: rgb(66, 65, 65);
+  font-size: 20px;
+}
+.copyright a {
+  color: red;
+  text-decoration: none;
+}
+.copyright i {
+  color: red;
+}
+
+.Button {
+  display: flex;
+  margin-left: 6%;
+}
